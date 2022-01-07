@@ -5,11 +5,10 @@ The PostgreSQL can be integrated with Python using psycopg2 module. sycopg2 is a
 If you do not have it installed on your machine then you can use yum command to install it as
 follows −
 ```
-$sudo apt-get install python-psycopg2
+$ sudo apt-get install python-psycopg2
 ```
-
 ### API & Description
-##### psycopg2.connect(database="testdb",user="postgres",password="cohondob", host="127.0.0.1", port="5432")
+##### psycopg2.connect(database="testdb",user="postgres",password="my_password", host="127.0.0.1", port="5432")
 This API opens a connection to the PostgreSQL database. If database is opened
 successfully, it returns a connection object.
 ##### connection.cursor()
